@@ -1,0 +1,23 @@
+.filterLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #00b6bc;
+  font-size: 1.2rem;
+}
+
+.filterInput {
+  padding: 0.7rem;
+  border: 1px solid #00b6bc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  outline: none;
+  text-align: center;
+}
+
+.filterInput:focus {
+  box-shadow: inset 3px 3px 21px -14px rgba(66, 68, 90, 1);
+}
